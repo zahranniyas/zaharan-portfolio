@@ -1,0 +1,39 @@
+.mobmenu{
+    border-top:1px solid var(--purple);
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    z-index: 998;
+    top: 100px;
+}
+
+.mobmenu li{
+    border-bottom:1px solid var(--blue);
+    width: 100%;
+}
+
+.mobmenu-item{
+    display: block;
+    text-align: center;
+    font-family: 'regular';
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 15px 0;
+    width: 100%
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 640px) {
+
+    .mobmenu{
+        display: flex;
+    }
+
+}

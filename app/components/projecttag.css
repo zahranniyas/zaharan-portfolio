@@ -1,0 +1,23 @@
+
+.inactive-pro-btn{
+    font-size: 16px;
+    font-family: 'regular';
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.active-pro-btn{
+    font-size: 16px;
+    font-family: 'medium';
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: white;
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

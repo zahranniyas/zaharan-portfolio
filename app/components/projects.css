@@ -1,0 +1,56 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+
+.project-title{
+    font-family: 'heavy';
+    font-size: 64px;
+}
+
+.project-title span{
+    font-family: 'heavy';
+    color: var(--blue);
+}
+
+.project-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-btn-item{
+    font-size: 14px;
+    font-family: 'regular';
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.project-btn-item-act{
+    font-size: 14px;
+    font-family: 'medium';
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+    color: white;
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.project-cards-main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}

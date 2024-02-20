@@ -1,0 +1,61 @@
+:root{
+  --purple: #a685ed;
+  --blue: #67b5e6;
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('./fonts/Mark Pro.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'medium';
+  src: url('./fonts/Mark Pro Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('./fonts/Mark Pro Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'heavy';
+  src: url('./fonts/Mark Pro Heavy.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'tw-bold';
+  src: url('./fonts/TCCB____.TTF');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'tw-normal';
+  src: url('./fonts/TCCM____.TTF');
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'regular';
+}
+
+a, p, h1, h2, h3, h4, li{
+  font-family: 'regular';
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+li{
+  list-style: none;
+}
