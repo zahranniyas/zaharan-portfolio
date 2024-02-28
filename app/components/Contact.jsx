@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const Contact = () => {
     
-    const [modal, setModal] = useState(true)
+    const [modal, setModal] = useState(false)
 
     const [formData, setFormData] = useState({
         name: '',
