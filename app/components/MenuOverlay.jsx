@@ -8,9 +8,9 @@ const MenuOverlay = () => {
     initial={{y:-100}}
     animate={{y:0}}
     className='mobmenu'>
-        <li><Link href={""} className='mobmenu-item'>About</Link></li>
-        <li><Link href={""} className='mobmenu-item'>Projects</Link></li>
-        <li><Link href={""} className='mobmenu-item'>Contact</Link></li>
+        <li><Link href={"#about"} className='mobmenu-item'>About</Link></li>
+        <li><Link href={"#projects"} className='mobmenu-item'>Projects</Link></li>
+        <li><Link href={"#contact"} className='mobmenu-item'>Contact</Link></li>
     </motion.ul>
   )
 }

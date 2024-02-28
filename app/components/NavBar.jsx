@@ -40,9 +40,9 @@ const NavBar = () => {
               )}
             </div>
             <ul className='menu'>
-                <li><Link href={'/'} className='menu-item'>About</Link></li>
-                <li><Link href={'/'} className='menu-item'>Project</Link></li>
-                <li><Link href={'/'} className='menu-item'>Contact</Link></li>
+                <li><Link href={'#about'} className='menu-item'>About</Link></li>
+                <li><Link href={'#projects'} className='menu-item'>Projects</Link></li>
+                <li><Link href={'#contact'} className='menu-item'>Contact</Link></li>
                 <li>
                   <motion.button
                     className='cv-btn'

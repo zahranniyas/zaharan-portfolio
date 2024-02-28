@@ -11,7 +11,7 @@ const ProjectCard = ({imgOne, title, type, description, webUrl}) => {
         <h1 className='project-card-title'>{title}</h1>
         <p className='project-card-type'>{type}</p>
         <p className='project-card-desc'>{description}</p>
-        <Link href={webUrl} className='card-link'>Check it out</Link>
+        <Link target='blank' href={webUrl} className='card-link'>Check it out</Link>
   </div>
   )
 }

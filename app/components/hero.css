@@ -33,9 +33,14 @@
     font-size: 20px;
 }
 
+.hero-btn-main{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
 .hero-btn{
     width: 156px;
-    margin-top: 30px;
     font-size: 20px;
     background-color: var(--blue);
     border: none;
@@ -45,16 +50,31 @@
     cursor: pointer;
 }
 
-.hero-btn{
-    width: 156px;
-    margin-top: 30px;
-    font-size: 20px;
-    background-color: var(--blue);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
+.hero-ico-main{
+    margin-left: 20px;
+}
+
+.ba-icon-hero{
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin: 0 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0px 12px 15px -5px rgba(0, 0, 0, 0.4);
+}
+
+.ba-icon-hero:nth-child(1){
+    color: #9767e6;
+}
+
+.ba-icon-hero:nth-child(2){
+    color: #e66795;
+}
+
+.ba-icon-hero:nth-child(3){
+    color: #40b89b;
 }
 
 .hero-right{
@@ -125,6 +145,26 @@
 
     .hero-text{
         font-size: 12px;
+    }
+
+    .hero-btn-main{
+        flex-direction: column;
+    }
+
+    .hero-ico-main{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .ba-icon-hero{
+        width: 15px;
+        height: 15px;
+        color: black;
+        margin: 0 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50px;
+        box-shadow: 0px 8px 15px -6px rgba(0, 0, 0, 0.4);
     }
 
     .hero-right{

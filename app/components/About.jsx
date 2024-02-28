@@ -87,7 +87,7 @@ const About = () => {
   }
 
   return (
-    <section className='about-main'>
+    <section id='about' className='about-main'>
       <motion.div
         variants={aboutVariants}
         initial='initial'

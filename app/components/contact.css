@@ -1,12 +1,14 @@
 .contact-main{
     background-color: var(--blue);
     padding: 100px 0;
+    position: relative;
 }
 
 .contact-container{
     width: 80%;
     margin: auto;
     display: flex;
+    position: relative;
 }
 
 .contact-left{
@@ -74,19 +76,36 @@
     font-size: 16px;
     border: transparent;
     padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.email-input::placeholder{
+    color: rgb(205, 205, 205);
 }
 
 .text-input{
+    padding-top: 10px;
     border-radius: 5px;
     height: 100px;
     text-align: start;
     font-size: 16px;
     border: transparent;
     padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.text-input::placeholder{
+    color: rgb(205, 205, 205);
+}
+
+.contact-btn-main{
+    display: flex;
+    align-items: center;
 }
 
 .contact-btn{
-    padding: 10px 20px;
+    width: 150px;
+    padding: 10px 10px;
     border-radius: 10px;
     border: none;
     background-color: white;
@@ -94,9 +113,57 @@
     font-family: 'medium';
     color: var(--blue);
     cursor: pointer;
+    transition: 250ms;
+    margin-right: 10px;
 }
 
+.contact-btn:hover{
+    background-color: rgb(230, 243, 249);
+    color: #4590bf;
+}
 
+.contact-modal-main{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 1);
+    border: 2px solid green;
+    color: green;
+    box-shadow: 1px 1px 15px 5px rgba(1, 1, 1, 0.3);
+}
+
+.contact-modal-main p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-modal-btn{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(255, 0, 72);
+    border: none;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: -1px 1px 5px 0px rgba(1, 1, 1, 0.7);
+}
+
+.x-icon-modal{
+    font-size: 16px;
+    color: white;
+}
 
 /* MObile css  */
 
@@ -127,6 +194,15 @@
 
     .contact-left{
         width: 100%;
+    }
+
+    .contact-modal-main{
+        width: 300px;
+        height: 150px;
+        top: 50%;
+        bottom: 50%;
+        right: 50%;
+        left: 50%;
     }
 
 }

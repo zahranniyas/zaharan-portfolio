@@ -54,3 +54,9 @@
     flex-wrap: wrap;
     width: 90%;
 }
+
+@media (max-width: 640px) {
+    .project-title{
+        font-size: 40px;
+    }
+}

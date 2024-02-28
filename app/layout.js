@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Zaharan Niyas | Portfolio",
   description: "",
+  icons: {
+    icon: "/public/assets/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {

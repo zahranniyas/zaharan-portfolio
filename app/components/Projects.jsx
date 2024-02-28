@@ -23,7 +23,7 @@ const projectData = [
         type: 'Mobile App',
         tag: ["All", "Mobile"],
         description: 'React Native, MongoDB',
-        webUrl: 'https://elegantcharms.lk'
+        webUrl: '/'
     },
     {
         id: 3,
@@ -41,7 +41,7 @@ const projectData = [
         type: 'Mobile App',
         tag: ["All", "Mobile"],
         description: 'React Native, MongoDB',
-        webUrl: 'https://meezaniyyah.com'
+        webUrl: '/'
     },
     {
         id: 5,
@@ -85,7 +85,7 @@ const Projects = () => {
     }
 
   return (
-    <div className='project-container'>
+    <div id='projects' className='project-container'>
         <h2 className='project-title'>My <span>Projects</span></h2>
         <div className='project-btn'>
             <ProjectTag onClick={handleTagChange} name='All' isSelected={tag === 'All'}/>
